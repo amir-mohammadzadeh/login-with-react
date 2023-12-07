@@ -20,7 +20,6 @@ const SignupForm = ({ onSignup, onError }) => {
     const submitHandler = (event) => {
         event.preventDefault()
         onSignup(inputValues)
-        //console.log(inputValues)
     }
 
     const userName_input = {

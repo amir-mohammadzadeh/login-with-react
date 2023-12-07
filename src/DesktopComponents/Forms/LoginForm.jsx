@@ -2,10 +2,6 @@ import { useState } from 'react'
 import Input from './Input'
 import Footer from '../Footer/Footer'
 
-
-
-
-
 const LoginForm = ({ onLogin, onError }) => {
     const [passwordHide, setPasswordHide] = useState(true)
     const [inputValues, setInputValues] = useState({
@@ -23,8 +19,6 @@ const LoginForm = ({ onLogin, onError }) => {
     const submitHandler = (event) => {
         event.preventDefault()
         onLogin(inputValues)
-        //console.log(inputValues)
-
     }
 
     const userName_input = {
@@ -43,7 +37,6 @@ const LoginForm = ({ onLogin, onError }) => {
         value: inputValues.password,
         onType: inputChangeHandler,
     }
-
 
     return (
         <form className="lg-form" onSubmit={submitHandler}>

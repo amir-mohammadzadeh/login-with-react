@@ -1,11 +1,7 @@
 
-///    front-card_content   class chang  ///   forms opacity change  
-///    front-card  class  add     
 
 const Card_Container = ({ showThis ,header , body , btnTitle , clickHandler , children }) => {
     
-    
-
     const switchCard = () => { 
         clickHandler()
     }
