@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./mobileMainBSG.jpg');
+    background-image: url('/mobileMainBSG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
