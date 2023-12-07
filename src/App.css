@@ -5,3 +5,9 @@ a:active,a:link,a:visited{
     text-decoration: none;
     color: unset;
 }
+@media (max-width: 777px){
+    body{
+        font-size: 20px;
+    }
+}
+

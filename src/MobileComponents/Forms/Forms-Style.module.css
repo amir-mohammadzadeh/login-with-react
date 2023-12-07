@@ -66,14 +66,14 @@
 
 .forgot {
     cursor: pointer;
-    font-size: .8em;
+    font-size: 1em;
     color: #eff31b;
     margin-bottom: 1rem;
 }
 
 .register {
     color: #000000;
-    font-size: .8em;
+    font-size: 1em;
 }
 
 .register a {
@@ -84,7 +84,7 @@
 }
 
 .error-msg {
-    font-size: .7em;
+    font-size: .8em;
     font-weight: 600;
     color: #b90926;
     margin-bottom: .9rem;

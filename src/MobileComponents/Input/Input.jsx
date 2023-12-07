@@ -12,7 +12,7 @@ const Input = ({ id, type, name, children, value, onType, leftIcon, rightIcon })
         <div className={type == 'checkbox' ? style["input-checkbox"] : style["input-box"]}>
 
             {type == 'checkbox' && <input id={id} name={name} type={type}  checked={value} onChange={onType} />}
-            {type != 'checkbox' && <input id={id} name={name} type={type} required value={value} onChange={onType} />}
+            {type != 'checkbox' && <input dir='auto' id={id} name={name} type={type} required value={value} onChange={onType} />}
 
             <label htmlFor={id}> {children} </label>
             {leftIcon &&

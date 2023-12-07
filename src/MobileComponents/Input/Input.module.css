@@ -16,18 +16,17 @@
     background-color: var(--input-background) ;
     outline: none;
     width: 95%;
-    height: 30px;
-    padding: 5px 10px;
-    font-size: 0.8em;
+    padding: 10px;
+    font-size: 01em;
     border-radius: 10px;
     border: 2px solid var(--input-border-light);
 }
 
 .input-box label{
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 35px;
-    font-size: .8em;
+    font-size: 1em;
     color: var(--label-light);
     border-left: 2px solid transparent ;
     border-right: 2px solid transparent ;
@@ -43,12 +42,12 @@
 }
 .input-box input:valid ~ label,
 .input-box input:focus ~ label{
-    transform: translate(-15px , -23px);
+    transform: translate(-15px , -22px);
     background-color: var(--input-background-fill);
     color: var(--label);
     letter-spacing: 1.2px;
     padding-inline: 10px ;
-    font-size: 0.7em;
+    font-size: 0.85em;
     border-left: 2px solid var(--input-border) ;
     border-right: 2px solid var(--input-border) ;
 }
@@ -56,7 +55,7 @@
 .input-box input:valid ~ .leftIcon,
 .input-box input:focus ~ .leftIcon{
     transform: translateX(-32px);
-    font-size: .8em;
+    font-size: 1em;
     color: #050420;
 }
 .input-box input:valid ~ .rightIcon,
@@ -77,7 +76,7 @@
     height: 20px;
 }
 .input-checkbox label{
-    font-size: .9em;
+    font-size: 1.1em;
     color: #000000;
 }
 .input-checkbox label a{
@@ -87,7 +86,7 @@
 
 .leftIcon{
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 10px;
     font-size: 1em;
     color: var(--label-light);
@@ -99,7 +98,7 @@
     position: absolute;
     top: 10px;
     right: 0;
-    padding-inline: .3rem;
-    font-size: .9em;
+    padding-inline: .6rem;
+    font-size: 1.2em;
     cursor: pointer;
 }
