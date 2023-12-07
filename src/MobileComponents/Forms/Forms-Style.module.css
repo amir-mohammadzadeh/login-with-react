@@ -1,0 +1,91 @@
+.card {
+    background-color: #30303050;
+    box-shadow: 1px 1px 1px .5px #dfb3ff80;
+    border: 1px solid #f1e5ff80;
+    backdrop-filter: blur(4px);
+    max-width: var(--card-width);
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.form {
+    padding-inline: 5%;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form header {
+    text-align: center;
+    font-size: 2em;
+    margin-block: 0 2rem;
+}
+
+.input-checkbox {
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    user-select: none;
+}
+
+.input-checkbox input {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.form-linkes {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.form-linkes button {
+    width: 80%;
+    margin: 1.5rem auto;
+    padding: .4rem;
+    font-size: 1.1em;
+    background-color: #A59AE0;
+    border: 2px solid #5fd4f100;
+    border-radius: .5rem;
+}
+
+.form-linkes button:hover{
+    transition: .5s;
+    cursor: pointer;
+    border: 2px solid #A59AE0;
+    background-color: #a49ae041;
+    color: #510674;
+
+}
+
+
+.forgot {
+    cursor: pointer;
+    font-size: .8em;
+    color: #eff31b;
+    margin-bottom: 1rem;
+}
+
+.register {
+    color: #000000;
+    font-size: .8em;
+}
+
+.register a {
+    cursor: pointer;
+    color: #eff31b;
+    font-weight: 600;
+    padding-inline-start: .5rem;
+}
+
+.error-msg {
+    font-size: .7em;
+    font-weight: 600;
+    color: #b90926;
+    margin-bottom: .9rem;
+}

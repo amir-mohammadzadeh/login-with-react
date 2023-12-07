@@ -1,0 +1,51 @@
+.main {
+    --form-width: 70%;
+    --card-B-width: 32%;
+    --card-B-right: 17%;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+    font-size: 2em;
+    transition: 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.pL {
+    left: 28%;
+}
+
+.pS {
+    right: 27%;
+}
+
+.godown {
+    opacity: 0;
+    transform: translateY(200px);
+}
+
+@media (max-width: 1010px){
+    .main{
+        --form-width: 90% ;
+        --card-B-width: 42% ;
+        --card-B-right: 7% ;
+    }
+}
+

@@ -1,0 +1,82 @@
+.front-card{
+    background: rgb(209,16,93);
+    background: linear-gradient(45deg, rgba(184,1,61,1) 0%, rgba(236,16,88,1) 40%, rgba(232,15,86,1) 60%, rgba(184,1,61,1) 100%);
+    position: absolute;
+    top: -10%;
+    right: var(--card-B-right);
+    width: var(--card-B-width);
+    height: 120%;
+    border-radius: 20px;
+    transition: 1s  cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.swipeLeft{/* Card B go to left when click "sign up" button */    
+    right: 51%;    
+}
+
+.front-card_content{
+    position: absolute;
+    width: calc(100% - 60px);
+    height: 100%;
+    margin: 0 30px;
+    transition: 1.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.showThis{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+}
+.hideThis{  
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.lg-fcb-item{
+text-align: center;
+}
+.lg-fcb-item header{
+    padding-top: 80px ;
+    color: white;
+    font-size: 3.3vw;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lg-fcb-item p{
+    color: #f1d3d3;
+    font-size: .8em;
+    padding-inline: 10%;
+    text-align: center;
+}
+.lg-fcb-item button{
+    width: 120px;
+    padding: 10px 0;
+    border-radius: 15px;
+    font-size: .7em;
+    color: rgb(14, 14, 51);
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #E0EAFC 0%, #CFDEF3  51%, #E0EAFC  100%);
+    border: 2px solid #cecae4;
+}
+.lg-fcb-item button:hover{
+    background-position: right center;
+    cursor: pointer;
+}
+
+/*************************/
+
+.line-2{
+    border-style: groove;
+    width: 80%;
+    margin-block: 20px 0;
+    color: #ddbfbf;
+}
+
+
+/**************/

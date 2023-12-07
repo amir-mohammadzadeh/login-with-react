@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'LoginIcons';
+  src:  url('fonts/LoginIcons.eot?ifd17q');
+  src:  url('fonts/LoginIcons.eot?ifd17q#iefix') format('embedded-opentype'),
+    url('fonts/LoginIcons.ttf?ifd17q') format('truetype'),
+    url('fonts/LoginIcons.woff?ifd17q') format('woff'),
+    url('fonts/LoginIcons.svg?ifd17q#LoginIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+span,
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'LoginIcons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-emoji-wink:before {
+  content: "\e900";
+}
+.icon-envelope-at:before {
+  content: "\e901";
+}
+.icon-envelope-at-fill:before {
+  content: "\e902";
+}
+.icon-eye:before {
+  content: "\e903";
+}
+.icon-eye-slash:before {
+  content: "\e904";
+}
+.icon-facebook .path1:before {
+  content: "\e905";
+  color: rgb(60, 90, 154);
+}
+.icon-facebook .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-github .path1:before {
+  content: "\e907";
+  color: rgb(62, 119, 191);
+}
+.icon-github .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(17, 76, 130);
+}
+.icon-github .path3:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(17, 76, 130);
+}
+.icon-github .path4:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(108, 169, 234);
+}
+.icon-github .path5:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(8, 62, 102);
+}
+.icon-github .path6:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(17, 76, 130);
+}
+.icon-github .path7:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(108, 169, 234);
+}
+.icon-google .path1:before {
+  content: "\e90e";
+  color: rgb(66, 133, 244);
+}
+.icon-google .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(29, 15, 221);
+}
+.icon-google .path3:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(251, 188, 5);
+}
+.icon-google .path4:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(235, 67, 53);
+}
+.icon-key-fill:before {
+  content: "\e912";
+}
+.icon-person-fill:before {
+  content: "\e913";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-eye-fill:before {
+  content: "\e9ce";
+}
+.icon-eye-blocked:before {
+  content: "\e9d1";
+}
+.icon-arrow-right:before {
+  content: "\ea3c";
+}
+.icon-arrow-left:before {
+  content: "\ea40";
+}

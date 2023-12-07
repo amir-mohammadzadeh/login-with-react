@@ -1,0 +1,142 @@
+
+.back-card{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 5px #20246177 ;
+    width: var(--form-width);
+    height: 400px;
+    margin: auto ;
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.justify-end{ justify-content: end; }
+
+.lg-form{
+    flex-basis: 40%;
+    height: calc(100% - 20px );
+    width: 50%;
+    padding: 10px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    transition: .5s;
+}
+
+.input-Box{
+    position: relative;
+    margin-block: .2rem;
+}
+
+.label{
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    font-size: .8em;
+    color: #7e7e7e;
+    border-left: 2px solid #1a1c3a00 ;
+    border-right: 2px solid #1a1c3a00 ;
+    transition: .5s;
+}
+
+.input{
+    background-color: #ffffff;
+    outline: none;
+    width: 90%;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    border: 2px solid #1a1c3a70;
+}
+
+.input:valid ~ .label,
+.input:focus ~ .label{
+    transform: translate(-15px , -18px);
+    background-color: #ffffff;
+    color: #050420;
+    letter-spacing: 1px;
+    padding-inline: 10px ;
+    font-size: 0.6em;
+    border-left: 2px solid #1a1c3a70 ;
+    border-right: 2px solid #1a1c3a70 ;
+}
+
+.input:valid ~ i,
+.input:focus ~ i{
+    transform: translateX(-40px);
+    font-size: 1em;
+    color: #050420;
+}
+.leftIcon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1em;
+    color: #7e7e7e;
+    transition: .5s;
+}
+
+.rightIcon{
+    position: absolute;
+    top: 10px;
+    right: 7%;
+    font-size: .9em;
+    cursor: pointer;
+}
+
+.checkbox-content{
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    user-select: none;
+}
+
+.input-checkbox{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.checkbox-content a{
+    color: #0a19eb;
+    text-decoration: underline;
+}
+
+.form-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10%;
+}
+
+.form-buttons button{
+    width: 130px;
+    padding: 10px 0;
+    background-image: linear-gradient(to right, #0575E6 0%, #2041b9  51%, #0575E6  100%);
+    border: 0px solid #0a19eb;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.forgotPass{
+    color: #111222;
+    font-size: 0.7em;
+    
+}
+
+.line{
+    color: #aeaeb8;
+    width: 100%;
+    border-style: groove;
+}
+
+.error-msg{
+    font-size: .7em;
+    color: #bf1257;
+    
+}

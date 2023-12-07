@@ -1,0 +1,105 @@
+
+.input-box{
+    --input-background: #d8d5dd ;
+    --input-background-fill: #d8d5dd ;
+    --input-border-light: #a457db ;
+    --input-border: #590198 ;
+    --label-light: #0b0d1e ;
+    --label: #000000 ;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.input-box input{
+    background-color: var(--input-background) ;
+    outline: none;
+    width: 95%;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    border: 2px solid var(--input-border-light);
+}
+
+.input-box label{
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    font-size: .8em;
+    color: var(--label-light);
+    border-left: 2px solid transparent ;
+    border-right: 2px solid transparent ;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.input-box input:valid,
+.input-box input:focus{
+    transition: .85s;
+    border-color: var(--input-border);
+    background-color: var(--input-background-fill);
+}
+.input-box input:valid ~ label,
+.input-box input:focus ~ label{
+    transform: translate(-15px , -23px);
+    background-color: var(--input-background-fill);
+    color: var(--label);
+    letter-spacing: 1.2px;
+    padding-inline: 10px ;
+    font-size: 0.7em;
+    border-left: 2px solid var(--input-border) ;
+    border-right: 2px solid var(--input-border) ;
+}
+
+.input-box input:valid ~ .leftIcon,
+.input-box input:focus ~ .leftIcon{
+    transform: translateX(-32px);
+    font-size: .8em;
+    color: #050420;
+}
+.input-box input:valid ~ .rightIcon,
+.input-box input:focus ~ .rightIcon{
+    color: #050420;
+}
+
+.input-checkbox{
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    user-select: none;
+}
+.input-checkbox input{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.input-checkbox label{
+    font-size: .9em;
+    color: #000000;
+}
+.input-checkbox label a{
+    color: #0518f0;
+    padding-inline-start: .3rem;
+}
+
+.leftIcon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1em;
+    color: var(--label-light);
+    transition: .5s;
+}
+
+.rightIcon{
+    color: var(--label-light);
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding-inline: .3rem;
+    font-size: .9em;
+    cursor: pointer;
+}

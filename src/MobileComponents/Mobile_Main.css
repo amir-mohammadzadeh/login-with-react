@@ -1,0 +1,28 @@
+.main {
+    --form-width: 70%;
+    --card-width: 30rem;
+    --card-B-right: 17%;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('mobileMainBSG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+    padding-inline: 1rem;
+}
+
+/********************************************/
+

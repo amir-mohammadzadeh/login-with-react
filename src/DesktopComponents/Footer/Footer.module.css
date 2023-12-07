@@ -1,0 +1,30 @@
+.content-S{
+    text-align: center;
+    font-size: 0.8em;
+    color: #f5ecec;
+}
+.content-L{
+    text-align: start;
+    font-size: 0.8em;
+    color: #111111;
+}
+
+.acouns-content{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px
+}
+
+.img-S{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.img-L{width: 40px;}
+
+.img-L:hover{
+    transition: .5s;
+    transform: scale(1.3);
+}
